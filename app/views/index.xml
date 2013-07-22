@@ -1,5 +1,18 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+    <Window class="container">
+        <ScrollableView id="carousel" class="pages">
+            <View class="slide">
+                <ImageView image="http://placehold.it/320x568&text=Slide%201"></ImageView>
+                <Label class="caption"></Label>
+            </View>
+            <View class="slide">
+                <ImageView image="http://placehold.it/320x568&text=Slide%202"></ImageView>
+                <Label class="caption"></Label>
+            </View>
+            <View class="slide">
+                <ImageView image="http://placehold.it/320x568&text=Slide%203"></ImageView>
+                <Label class="caption"></Label>
+            </View>
+        </ScrollableView>
+    </Window>
 </Alloy>

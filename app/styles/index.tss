@@ -1,8 +1,7 @@
 ".container": {
-	backgroundColor:"white"
+    backgroundColor:"white"
 },
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-} 
+"ImageView": {
+    width: "100%",
+    height: "100%"
+}
