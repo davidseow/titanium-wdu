@@ -1,0 +1,22 @@
+{
+    "global": {
+        "sync": {
+            "timeout": 10000
+        },
+        "flickr": {
+            "endpoint": "http://api.flickr.com/services/rest/",
+            "apikey": "",
+            "method": "flickr.photosets.getPhotos",
+            "photoset_id": "72157634723371935"
+        },
+        "carousel": {
+            "max_slides": 100
+        }
+    },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:ios": {},
+    "os:android": {},
+    "dependencies": {}
+}
