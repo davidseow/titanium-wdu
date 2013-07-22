@@ -1,0 +1,6 @@
+<Alloy>
+    <View id="slide">
+        <ImageView id="slideImage"></ImageView>
+        <Label id="slideCaption" class="caption"></Label>
+    </View>
+</Alloy>

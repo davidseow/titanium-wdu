@@ -1,5 +1,5 @@
 {
-    "global": {
+	"global": {
         "sync": {
             "timeout": 10000
         },
@@ -13,10 +13,10 @@
             "max_slides": 100
         }
     },
-    "env:development": {},
-    "env:test": {},
-    "env:production": {},
-    "os:ios": {},
-    "os:android": {},
-    "dependencies": {}
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:ios": {},
+	"os:android": {},
+	"dependencies": {}
 }

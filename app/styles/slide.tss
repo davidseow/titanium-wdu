@@ -1,0 +1,11 @@
+"ImageView": {
+    width: "100%",
+    height: "100%"
+},
+".caption": {
+    visible: false,
+    left: 10,
+    right: 10,
+    top: 400,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},

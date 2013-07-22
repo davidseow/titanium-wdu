@@ -1,0 +1,43 @@
+/**
+ * BASE
+ */
+"Window": {
+    orientationModes: [Ti.UI.PORTRAIT]
+},
+"Label": {
+    font : {
+        fontFamily : "TUITypeLight",
+        fontSize : 32
+    },
+    color: "#fff"
+},
+"ImageView": {
+    defaultImage: "/images/background/default.png"
+},
+".hr": {
+    backgroundColor: "#e0e0e0",
+    height: 0.5
+},
+
+/**
+ * LAYOUT
+ */
+".navigation-bar": {
+    layout: "horizontal",
+    height: Ti.UI.SIZE
+},
+".page-content": {
+    backgroundColor: "transparent",
+    separatorColor: "transparent"
+}
+
+
+/**
+ * CAROUSEL
+ */
+".pages": {
+    backgroundImage: "/images/background/tweed.png",
+    backgroundRepeat: true,
+    contentWidth: "100%",
+    contentHeight: "100%"
+}
